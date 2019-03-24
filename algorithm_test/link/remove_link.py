@@ -7,6 +7,7 @@ class LNode(object):
     def __init__(self,arg):
          self.data = arg
          self.next = None
+
 def createlink(x):
     i = 1
     head = LNode(None)
